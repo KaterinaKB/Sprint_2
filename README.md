@@ -1,1 +1,16 @@
 # qa_python
+
+1. test_add_new_book_add_two_books_length_is_right проверяет корректность длины списка при добавлении нескольких книг
+2. test_add_new_book_add_book_book_is_in_collection проверяет, что добавленная книга есть в коллекции
+3. test_add_new_book_add_book_book_rating_is_one проверяет, что рейтинг добавленной книги 1
+4. test_set_book_rating_valid_boundary_values_rating_updated проверяет корректную установку рейтинга с валидными граничными значениями
+5. test_set_book_rating_invalid_values_rating_not_updated проверяет неизменность рейтинга при попытке использовать различные невалидные значения при установке рейтинга
+6. test_get_book_rating_book_from_collection_rating_returned проверяет возврат рейтинга при вызове метода get_book_rating
+7. test_get_books_with_specific_rating_valid_rating_correct_list_returned проверяет возврат корректного списка с определенным валидным рейтингом
+8. test_get_books_with_specific_rating_invalid_rating_empty_list_returned проверяет возврат пустого списка при использовании невалидных значений рейтинга в запросе
+9. test_get_books_rating_collection_returned проверяет корректный возврат всей коллекции
+10. test_add_book_in_favorites_book_in_collection_book_added_to_favorities проверяет добавление книги, которая есть в коллекции в список избранного
+11. test_add_book_in_favorites_book_not_in_collection_book_not_added_to_favorities проверяет, что книга, отсутствующая в коллеции, не попадает в список избранного
+12. test_add_book_in_favorites_book_already_in_favorities_book_not_added_to_favorities проверяет, что книга, которая уже есть в избранном, не добавляется повторно
+13. test_delete_book_from_favorites_book_in_favorities_book_deleted_from_favorities проверяет удаление книги из списка избранного
+14. test_get_list_of_favorites_books_list_returned проверяет корректность возвращенного списка избранного
